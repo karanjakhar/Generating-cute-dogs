@@ -3,4 +3,4 @@ Imagine if we had access to the true data distribution *P**d**a**t**a*(*x*) we c
 
 Random noise is fed into the Generator that transforms it into a  "fake image". The Discriminator is fed both from the training set images (*p**d**a**t**a*(*x*)) and the fake images coming from the Generator and it has to tell them  apart. The idea behind GAN, is to train both of these networks  alternatively to do the best they can in generating and discriminating  images. The intuition is that by improving one of these networks, in  this game theoretic manner, the other network has to do a better job to  win the game, and that in turn improves its performance and this loop  continues.
 
-![img](/home/karan/kj_workspace/kj_git_projects/Generating-cute-dogs/images/Figura_2.png)
+![img](images/Figura_2.png)
